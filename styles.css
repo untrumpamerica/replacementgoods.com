@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'zen-new', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* grayscale for white on blue */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.full-bleed-background {
+  background: url(images/desktopbg@2x.png) center center no-repeat #274e9b;
+  background-size: cover;
+  color: #ffffff;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.logoContainer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo {
+  width: 540px;
+  max-width: 100%;
+}
+
+.legalese {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 30px;
+}
+
+.legalese a {
+  color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .full-bleed-background {
+    background-position: right top;
+    background-size: contain;
+  }
+}
