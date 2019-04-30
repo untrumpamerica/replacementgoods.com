@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+html,
+body {
+  font-family: 'zen-new', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: gelo, serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.top-section {
+  color: #182C57;
+}
+
+.about-section {
+  background: #2B4E97;
+  color: #fff;
+  /* grayscale for white on blue */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.grid-container {
+  width: 84%;
+  padding: 20px 8%;
+}
+
+.grid-container p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-bottom: 1em;
+}
+
+.grid-container h2 {
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 0.5em;
+}
+
+.grid-container h3 {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+@media only screen and (min-width: 700px) {
+  .grid-container {
+    width: 70%;
+    padding: 30px 15%;
+  }
+
+  .grid-container p {
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .grid-container h2 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  .grid-container h3 {
+    font-size: 34px;
+    line-height: 34px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .grid-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+  }
+
+  .offset {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .offset {
+    margin: 0 0 0 200px;
+  }
+}
