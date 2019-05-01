@@ -101,6 +101,6 @@ h2 {
     top: 80px;
     bottom: 80px;
     width: 0;
-    border-left: 15px solid #2B4E97;
+    border-left: 10px dotted #2B4E97;
   }
 }
