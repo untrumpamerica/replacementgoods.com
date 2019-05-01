@@ -43,6 +43,14 @@ img {
   margin-bottom: 0.3em;
 }
 
+.newsletter-section {
+  /* grayscale for white on blue */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #2A4C96;
+  color: #fff;
+}
+
 .grid-container {
   width: 84%;
   padding: 20px 8%;
