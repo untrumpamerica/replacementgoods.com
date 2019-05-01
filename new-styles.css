@@ -22,16 +22,21 @@ h3 {
   text-transform: uppercase;
 }
 
+img {
+  max-width: 100%;
+}
+
 .top-section {
   color: #182C57;
 }
 
 .about-section {
-  background: #2B4E97;
-  color: #fff;
-  /* grayscale for white on blue */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #EBEEF4;
+  color: #182C57;
+}
+
+.inner-grid .image {
+  display: none;
 }
 
 .about-section h2 {
@@ -81,6 +86,21 @@ h3 {
     font-size: 34px;
     line-height: 44px;
   }
+
+  .inner-grid {
+    display: flex;
+  }
+  
+  .inner-grid .text {
+    width: calc(100% - 250px);
+  }
+  
+  .inner-grid .image {
+    width: 200px;
+    margin-left: 50px;
+    padding-top: 50px;
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -94,6 +114,16 @@ h3 {
   .offset {
     width: 800px;
     margin: 0 auto;
+  }
+
+  .inner-grid .text {
+    width: calc(100% - 400px);
+  }
+  
+  .inner-grid .image {
+    width: 300px;
+    margin-left: 100px;
+    padding-top: 50px;
   }
 }
 
