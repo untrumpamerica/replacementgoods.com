@@ -34,6 +34,10 @@ h3 {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.about-section h2 {
+  margin-bottom: 0.3em;
+}
+
 .grid-container {
   width: 84%;
   padding: 20px 8%;
@@ -48,13 +52,13 @@ h3 {
 .grid-container h2 {
   font-size: 44px;
   line-height: 54px;
-  margin-bottom: 0.5em;
 }
 
 .grid-container h3 {
   font-size: 22px;
   line-height: 32px;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 @media only screen and (min-width: 700px) {
